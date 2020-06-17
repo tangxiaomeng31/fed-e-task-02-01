@@ -1,0 +1,42 @@
+{
+  "name": "fed-e-task-02-01",
+  "version": "1.0.0",
+  "description": "this is my work",
+  "main": "gulpfile.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "lint": "gulp lint",
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "start": "gulp start",
+    "deploy": "gulp deploy --production"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "author": {
+    "name": "txm",
+    "email": "5322222@11.com",
+    "url": "http://www.baidu.com"
+  },
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "jquery": "3.4.1",
+    "popper.js": "1.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1"
+  },
+  "license": "ISC"
+}
